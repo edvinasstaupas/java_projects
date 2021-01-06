@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lionroar.mokslobaze">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/flask"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.lionroar.mokslobaze.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lionroar.mokslobaze.ui.kita.kitaFragment"
+            android:label="Kita">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lionroar.mokslobaze.ui.egzai.egzaiFragment"
+            android:label="Egzaminai">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lionroar.mokslobaze.ui.home.HomeFragment"
+            android:label="Mokslo Bazė">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lionroar.mokslobaze.Mokslai.istorija"
+            android:label="Istorija"
+            android:parentActivityName="com.lionroar.mokslobaze.ui.home.HomeFragment">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lionroar.mokslobaze.ui.home.HomeFragment" />
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lionroar.mokslobaze.Mokslai.biologija"
+            android:label="Biologija"
+            android:parentActivityName="com.lionroar.mokslobaze.ui.home.HomeFragment">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lionroar.mokslobaze.ui.home.HomeFragment" />
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lionroar.mokslobaze.Mokslai.fizika"
+            android:label="Fizika"
+            android:parentActivityName="com.lionroar.mokslobaze.ui.home.HomeFragment">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lionroar.mokslobaze.ui.home.HomeFragment" />
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lionroar.mokslobaze.Mokslai.chemija"
+            android:label="Chemija"
+            android:parentActivityName="com.lionroar.mokslobaze.ui.home.HomeFragment">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lionroar.mokslobaze.ui.home.HomeFragment" />
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lionroar.mokslobaze.Mokslai.matematika.matematika"
+            android:label="Matematika"
+            android:parentActivityName="com.lionroar.mokslobaze.ui.home.HomeFragment">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lionroar.mokslobaze.ui.home.HomeFragment" />
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lionroar.mokslobaze.Mokslai.Lietuviu.lietuviu"
+            android:label="Lietuvių kalba"
+            android:parentActivityName="com.lionroar.mokslobaze.ui.home.HomeFragment">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lionroar.mokslobaze.ui.home.HomeFragment" />
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lionroar.mokslobaze.zaidimai.TicTacToe"
+            android:label="Kryžiukai nuliukai"
+            android:parentActivityName="com.lionroar.mokslobaze.ui.kita.kitaFragment">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lionroar.mokslobaze.ui.kita.kitaFragment" />
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lionroar.mokslobaze.ui.egzai.atmintine"
+            android:label="Atmintinė"
+            android:parentActivityName="com.lionroar.mokslobaze.ui.egzai.egzaiFragment">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lionroar.mokslobaze.ui.egzai.egzaiFragment" />
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lionroar.mokslobaze.ui.kita.nustatymai"
+            android:label="Nustatymai"
+            android:parentActivityName="com.lionroar.mokslobaze.ui.home.HomeFragment">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lionroar.mokslobaze.ui.home.HomeFragment" />
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lionroar.mokslobaze.Karantinas"
+            android:label="Karantino veiklos :)"
+            android:parentActivityName="com.lionroar.mokslobaze.ui.home.HomeFragment">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lionroar.mokslobaze.ui.home.HomeFragment" />
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lionroar.mokslobaze.Mokslai.Lietuviu.lietuviu_vertinimas"
+            android:label="LKL VBE vertinimo lentelė"
+            android:parentActivityName="com.lionroar.mokslobaze.Mokslai.Lietuviu.lietuviu">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lionroar.mokslobaze.Mokslai.Lietuviu.lietuviu" />
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lionroar.mokslobaze.ui.kita.skaiciuokle"
+            android:label="LKL VBE skaičiuoklė"
+            android:parentActivityName="com.lionroar.mokslobaze.ui.kita.kitaFragment">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lionroar.mokslobaze.ui.kita.kitaFragment" />
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+
+    </application>
+</manifest>

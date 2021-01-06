@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tekstas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="@string/main_text"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tekstas"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:paddingBottom="80dp">
+
+            <Button
+                android:id="@+id/kitasb"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="@dimen/marginButton"
+                android:layout_marginRight="@dimen/marginButton"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/buttonbackground"
+                android:onClick="atidarytiLietuviu"
+                android:text="@string/lietuviu_kalba" />
+
+            <Button
+                android:id="@+id/kitasb2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="@dimen/marginButton"
+                android:layout_marginRight="@dimen/marginButton"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/buttonbackground"
+                android:onClick="atidarytiMatematika"
+                android:text="Matematika" />
+
+
+            <Button
+                android:id="@+id/kitasb3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="@dimen/marginButton"
+                android:layout_marginRight="@dimen/marginButton"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/buttonbackground"
+                android:onClick="atidarytiFizika"
+                android:text="Fizika" />
+
+<!--
+
+            <Button
+                android:id="@+id/kitasb4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="@dimen/marginButton"
+                android:layout_marginRight="@dimen/marginButton"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/buttonbackground"
+                android:onClick="atidarytiChemija"
+                android:text="Chemija" />
+
+            <Button
+                android:id="@+id/kitasb5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="@dimen/marginButton"
+                android:layout_marginRight="@dimen/marginButton"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/buttonbackground"
+                android:onClick="atidarytiBiologija"
+                android:text="Biologija" />
+
+            <Button
+                android:id="@+id/kitasb6"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="@dimen/marginButton"
+                android:layout_marginRight="@dimen/marginButton"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/buttonbackground"
+                android:onClick="atidarytiIstorija"
+                android:text="Istorija" />
+-->
+
+            <Button
+                android:id="@+id/kitasb7"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="@dimen/marginButton"
+                android:layout_marginRight="@dimen/marginButton"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/buttonbackground"
+                android:onClick="atidarytiKarantina"
+                android:text="Karantino veiklos :)" />
+
+        </RadioGroup>
+
+    </RelativeLayout>
+
+</ScrollView>
+
+

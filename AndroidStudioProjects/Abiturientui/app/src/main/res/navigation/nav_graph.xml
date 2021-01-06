@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainActivity">
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.abiturientui.Main.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main"/>
+    <activity
+        android:id="@+id/biologija"
+        android:name="com.example.abiturientui.Mokslai.biologija"
+        android:label="biologija"
+        tools:layout="@layout/biologija" />
+    <activity
+        android:id="@+id/chemija"
+        android:name="com.example.abiturientui.Mokslai.chemija"
+        android:label="chemija"
+        tools:layout="@layout/chemija" />
+    <activity
+        android:id="@+id/egzai"
+        android:name="com.example.abiturientui.egzai.egzai"
+        android:label="egzai"
+        tools:layout="@layout/egzai" />
+    <activity
+        android:id="@+id/fizika"
+        android:name="com.example.abiturientui.Mokslai.Fizika.fizika"
+        android:label="fizika"
+        tools:layout="@layout/fizika" />
+    <activity
+        android:id="@+id/istorija"
+        android:name="com.example.abiturientui.Mokslai.istorija"
+        android:label="istorija"
+        tools:layout="@layout/istorija" />
+    <activity
+        android:id="@+id/lietuviu"
+        android:name="com.example.abiturientui.Mokslai.Lietuviu.lietuviu"
+        android:label="lietuviu"
+        tools:layout="@layout/lietuviu" />
+    <activity
+        android:id="@+id/matematika"
+        android:name="com.example.abiturientui.Mokslai.matematika"
+        android:label="matematika"
+        tools:layout="@layout/matematika" />
+    <activity
+        android:id="@+id/ticTacToe"
+        android:name="com.example.abiturientui.TicTacToe"
+        android:label="tictactoe"
+        tools:layout="@layout/tictactoe" />
+</navigation>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tekstas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:text="Pasirinkite žaidimą:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large">
+
+        </TextView>
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tekstas"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:paddingBottom="80dp">
+
+            <Button
+
+                android:id="@+id/kitasb"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="@dimen/marginButton"
+                android:layout_marginRight="@dimen/marginButton"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/buttonbackground"
+                android:onClick="atidarytiMatematika"
+                android:text="bluhbluh" />
+
+            <Button
+                android:id="@+id/kitasb2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="@dimen/marginButton"
+                android:layout_marginRight="@dimen/marginButton"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/buttonbackground"
+                android:onClick="atidarytiMatematika"
+                android:text="blabla" />
+
+
+        </RadioGroup>
+
+    </RelativeLayout>
+
+</ScrollView>
+
+

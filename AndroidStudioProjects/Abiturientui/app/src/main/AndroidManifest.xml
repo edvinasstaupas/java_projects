@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.abiturientui">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:icon="@mipmap/flask"
+        android:label="Mokslo bazė"
+        android:roundIcon="@mipmap/flask"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".Main.MainActivity2"
+            android:label="Mokslo bazė" />
+        <activity android:name=".Main.HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Mokslai.istorija"
+            android:label="Istorija" />
+        <activity
+            android:name=".Mokslai.biologija"
+            android:label="Biologija" />
+        <activity
+            android:name=".Mokslai.Fizika.fizika"
+            android:label="Fizika" />
+        <activity
+            android:name=".Mokslai.chemija"
+            android:label="Chemija" />
+        <activity
+            android:name=".Mokslai.matematika"
+            android:label="Matematika" />
+        <activity
+            android:name=".Mokslai.Lietuviu.lietuviu"
+            android:label="Lietuvių kalba" />
+        <activity
+            android:name=".Mokslai.Lietuviu.zaidimas"
+            android:label="Ar pasiruošei egzaminui?" />
+        <activity
+            android:name=".Mokslai.Lietuviu.zaidimas2"
+            android:label="Lietuvių kalbos žaidimas2" />
+        <activity
+            android:name=".Mokslai.Lietuviu.zaidimo_pabaiga"
+            android:label="Lietuvių kalbos žaidimas" />
+        <activity
+            android:name=".Mokslai.Lietuviu.klaidos"
+            android:label="Lietuvių kalbos žaidimas" />
+        <activity
+            android:name=".egzai.egzai"
+            android:label="Egzaminų informacija" />
+        <activity
+            android:name=".Kita.nustatymai"
+            android:label="Nustatymai" />
+        <activity
+            android:name=".TicTacToe"
+            android:label="Kryžiukai nuliukai" />
+        <activity
+            android:name=".egzai.atmintine"
+            android:label="Atmintinė" />
+        <activity
+            android:name=".notepad"
+            android:label="Užrašinė" />
+
+
+    </application>
+
+</manifest>

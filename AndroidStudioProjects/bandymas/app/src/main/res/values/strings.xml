@@ -1,0 +1,286 @@
+<!--
+<!DOCTYPE resources [
+    <!ENTITY vertinimas "https://www.nec.lt/failai/3319_10-priedas_LT_2013-01-29.pdf">
+    ]>
+-->
+
+<resources>
+
+    <string name="title_home">Mokslo bazė</string>
+    <string name="title_egzai">Egzaminai</string>
+    <string name="title_kita">Kita</string>
+    <string name="app_name">Mokslo bazė</string>
+    <string name="nustatymai">Nustatymai</string>
+    <string name="lietuviu_kalba">Lietuvių kalba</string>
+    <string name="fizika_saka">Pasirinkite fizikos šaką:</string>
+    <string name="egzai_nuorodos">"Naudinga informacija</string>
+    <string name="egzai_nuorodos2">NEC</string>
+    <string name="egzai_nuorodos3">Google mokslinčius</string>
+    <string name="egzai_nuorodos22">nec.lt</string>
+    <string name="egzai_nuorodos33">scholar.google.com</string>
+    <string name="apie">Apie</string>
+    <string name="ttt1">1 žaidėjas: 0</string>
+    <string name="ttt2">2 žaidėjas: 0</string>
+    <string name="atmintine_abiturientui">Atmintinė abiturientui</string>
+    <string name="main_text">Pasirinkite mokslo šaką:</string>
+    <string name="lt_main_text">Pasirinkite epochą:</string>
+    <string name="paieska">Paieška</string>
+    <string name="tobuliname">Vis dar tobuliname šią mokslo šaką</string>
+    <string name="karantinastext">Karantinas - visiems sunkus metas.\nTodėl dalinamės tokių pačių paaulgių kaip ir tu sukurtą veiklų sąrašą karantinui ir ne tik.</string>
+    <string name="fizlent1">Fizikinių dydžių lentelė</string>
+    <string name="fizlent2">Fizikinių dydžių lentelė</string>
+    <string name="skaiciuokle_tekstas">Ši skaičiuoklė nėra oficiali ir jos rezultatai gali būti klaidingi, tačiau yra sukurta remiantis NEC LKL VBE vertinimo grafiku (https://www.egzaminai.lt/failai/7258_Kriterinis_vertinimas1_12–19.pdf), todėl jei rasite neatitikimų, prašome kreiptis į mus, kad galėtume ištaisyti klaidas. Gero naudojimo!</string>
+
+    <string-array name="epocha_array">
+        <item>Renesansas</item>
+        <item>Barokas</item>
+        <item>Apšvieta</item>
+        <item>Romantizmas</item>
+        <item>Realizmas</item>
+        <item>Neoromantizmas</item>
+        <item>Modernizmas</item>
+        <item>XX a. vidurio modernioji proza</item>
+        <item>XX a. vidurio katastrofų literatūra</item>
+        <item>Modernioji XX a. antroji pusė</item>
+        <item>Nepriklausomybės laikų literatūra</item>
+        </string-array>
+
+    <string-array name="zymejimas">
+        <item>Raidinis žymėjimas</item>
+        <item>l</item>
+        <item>t</item>
+        <item>m</item>
+        <item>T</item>
+        <item>n</item>
+        <item>I</item>
+        <item>v</item>
+        <item>a</item>
+        <item>f</item>
+        <item>T</item>
+        <item>\u03C9</item>
+        <item>\u03C1</item>
+        <item>F</item>
+        <item>M</item>
+        <item>p</item>
+        <item>\u03C3</item>
+        <item>A</item>
+        <item>N</item>
+        <item>L</item>
+        <item>\u03BB</item>
+        <item>q</item>
+        <item>q</item>
+        <item>C</item>
+        <item>R</item>
+        <item>\u03C1</item>
+        <item>E</item>
+        <item>B</item>
+        <item>\u03C6</item>
+        <item>L</item>
+        <item>D</item>
+    </string-array>
+
+    <string-array name="dydis">
+        <item>Fizikinis dydis</item>
+        <item>Ilgis</item>
+        <item>Laikas</item>
+        <item>Masė</item>
+        <item>Temperatūra</item>
+        <item>Medžiagos kiekis</item>
+        <item>Srovės stipris</item>
+        <item>Greitis</item>
+        <item>Pagreitis</item>
+        <item>Dažnis</item>
+        <item>Periodas</item>
+        <item>Kampinis greitis</item>
+        <item>Tankis</item>
+        <item>Jėga</item>
+        <item>Jėgos momentas</item>
+        <item>Slėgis</item>
+        <item>Paviršiaus įtempimas</item>
+        <item>Darbas, energija</item>
+        <item>Galia</item>
+        <item>Savitoji garavimo šiluma</item>
+        <item>Savitoji lydymosi šiluma</item>
+        <item>Kuro degimo šiluma</item>
+        <item>Elektros krūvis</item>
+        <item>Elektrinė talpa</item>
+        <item>Varža</item>
+        <item>Savitoji varža</item>
+        <item>Elektrinio lauko stipris</item>
+        <item>Magnetinė indukcija</item>
+        <item>Magnetinis srautas</item>
+        <item>Induktyvumas</item>
+        <item>Lęšio optinė galia</item>
+    </string-array>
+
+    <string-array name="si">
+        <item>SI vienetas</item>
+        <item>M</item>
+        <item>S</item>
+        <item>Kg</item>
+        <item>K</item>
+        <item>Mol</item>
+        <item>A</item>
+        <item>m/s</item>
+        <item>m/s\u00B2</item>
+        <item>Hz</item>
+        <item>S</item>
+        <item>Rad/s</item>
+        <item>Kg/m\u00B3</item>
+        <item>N=kg\u22C5m/s\u00B2</item>
+        <item>N\u22C5m</item>
+        <item>Pa=N/m\u00B2</item>
+        <item>N/m</item>
+        <item>J=N\u22C5m</item>
+        <item>W=J/s</item>
+        <item>J/kg</item>
+        <item>J/kg</item>
+        <item>J/kg</item>
+        <item>C=A\u22C5s</item>
+        <item>F=C/V</item>
+        <item>\u2126=V/A</item>
+        <item>\u2126/m</item>
+        <item>N/C</item>
+        <item>T=N/(A\u22C5m)</item>
+        <item>Wb=T\u22C5m\u00B2</item>
+        <item>H=V\u22C5s/A</item>
+        <item>1/m</item>
+    </string-array>
+
+    <string-array name="pavadinimas">
+        <item>Vieneto pavadinimas</item>
+        <item>Metras</item>
+        <item>Sekundė</item>
+        <item>Kilogramas</item>
+        <item>Kelvinas</item>
+        <item>Molis</item>
+        <item>Amperas</item>
+        <item>Metras per sekundę</item>
+        <item>Metras per sekundę kvadratu</item>
+        <item>Hercas</item>
+        <item>Sekundė</item>
+        <item>Radianas per sekundę</item>
+        <item>Kilogramas kubiniam metrui</item>
+        <item>Niutonas</item>
+        <item>Niutonmetras</item>
+        <item>Paskalis</item>
+        <item>Niutonas metrui</item>
+        <item>Džiaulis</item>
+        <item>Vatas</item>
+        <item>Džiaulis kilogramui</item>
+        <item>Džiaulis kilogramui</item>
+        <item>Džiaulis kilogramui</item>
+        <item>Kulonas</item>
+        <item>Faradas</item>
+        <item>Omas</item>
+        <item>Omas iš metro</item>
+        <item>Niutonas kulonui</item>
+        <item>Tesla</item>
+        <item>Vėberis</item>
+        <item>Henris</item>
+        <item>Dioptrija</item>
+    </string-array>
+
+    <string-array name="apibrezimas">
+    <item>Apibrėžimas</item>
+    <item>Ilgis yra atstumas tarp dviejų taškų</item>
+    <item>Laikas yra fundamentinė Visatos fizikinė savybė</item>
+    <item>Masė yra kūno inertiškumo matas slenkamajame judėjime.</item>
+    <item>Temperatūra yra medžiagos molekulių slenkamojo judėjimo vidutinės kinetinės energijos matas.</item>
+    <item>Molis – medžiagos kiekis, kuriame yra tiek atomų, kiek Avogadro skaičiuje</item>
+    <item>Elektros srovės stipris – skaliarinis dydis, lygus elektros krūviui, kuris praeina pro laidininko skerspjūvio plotą per laiko vienetą</item>
+    <item>Greičiu vadinamas vektorinis dydis, lygus poslinkio santykiui su laiku, per kurį įvyko šis poslinkis.</item>
+    <item>Pagreičiu vadinamas vektorinis dydis, lygus greičio pokyčio santykiui su laiku, per kurį įvyko šis pokytis.</item>
+    <item>Svyravimų dažnis lygus svyravimų skaičiui per laiko vienetą.</item>
+    <item>Svyravimų periodas lygus vieno svyravimo trukmei.</item>
+    <item>Kampinis greitis yra sukimosi greičio išraiška</item>
+    <item>Tankis yra fizikinis dydis, rodantis medžiagos masę tūrio vienete</item>
+    <item>Jėga yra vektorinis dydis, kuriuo matuojama kūnų sąveika. Kūną veikiančių jėgų vektorių suma vadinama jėgų atstojamąja.</item>
+    <item>Jėgos momentas yra fizikinis dydis, dažniausiai apibūdinantis jėgos dydį sukant kūną apie kurią nors ašį.</item>
+    <item>Slėgiu vadinama statmenai ploto vienetą veikianti jėga</item>
+    <item>Paviršiaus įtempimo koeficientas lygus darbui, kurį reikia atlikti skysčio paviršiaus plotui padidinti ploto vienetu.</item>
+    <item>Darbu vadinamas fizikinis dydis, lygus kūną veikiančios jėgos modulio ir kūno poslinkio sandaugai</item>
+    <item>Galia yra darbas atliktas per vienetinį laiko tarpą.</item>
+    <item>Savitąja garavimo šiluma vadinamas šilumos kiekis, kuris turi būti suteiktas vienam kilogramui skysčio, kad paverstų jį tos pačios pastovios temperatūros garais.</item>
+    <item>Savitąja lydymosi šiluma vadinamas šilumos kiekis, kurį reikia suteikti vienam kilogramui lydymosi temperatūroje esančio kristalinio kūno, kad šis virstų tos pačios temperatūros skysčiu.</item>
+    <item>Kuro degimo šiluma yra šilumos kiekis, kurį išskiria visiškai sudegdamas 1kg kuro</item>
+    <item>Elektros krūvis yra mikrodalelės vidinė savybė, lemianti jos elektromagnetinę sąveiką su kitomis dalelėmis.</item>
+    <item>Elektrinė talpa tai fizinis dydis, apibūdinantis laidininko sugebėjimą kaupti elektros krūvį.</item>
+    <item>Elektrinė varža tai kūno savybė priešintis elektros srovei.</item>
+    <item>Savitoji varža tai laidininko priešinimasis elektros srovės tekėjimui.</item>
+    <item>Elektrostatinio lauko stipris lygus jėgai, veiksiančiai vienetinį teigiamąjį elektros krūvį, pateksiantį į šį tašką.</item>
+    <item>Magnetinė indukcija yra jėga, veikianti vienalyčiame lauke esančio tiesaus laidininko ilgio vienetu tekančią vienetinę srovę</item>
+    <item>Magnetinis srautas yra visų magnetinio lauko linijų suma</item>
+    <item>Magnetinio lauko indukcija proporcinga jėgai, veikiančiai statmenai lauko jėgų linijoms patalpinto laidininko ilgio vienetą, kai laidininku teka vienetinė srovė.</item>
+    <item>Optine lęšio galia vadinamas židinio nuotoliui atvirkščias dydis.</item>
+</string-array>
+
+    <string-array name="zymejimas2">
+        <item>Žymėjimas</item>
+        <item>E</item>
+        <item>P</item>
+        <item>T</item>
+        <item>G</item>
+        <item>M</item>
+        <item>k</item>
+        <item>h</item>
+        <item>D</item>
+        <item>d</item>
+        <item>c</item>
+        <item>m</item>
+        <item>\u00B5</item>
+        <item>n</item>
+        <item>p</item>
+        <item>f</item>
+        <item>a</item>
+    </string-array>
+
+    <string-array name="pavadinimas2">
+        <item>Pavadinimas</item>
+        <item>Eksa-</item>
+        <item>Peta-</item>
+        <item>Tera-</item>
+        <item>Giga-</item>
+        <item>Mega-</item>
+        <item>Kilo-</item>
+        <item>Hekto-</item>
+        <item>Deka-</item>
+        <item>Deci-</item>
+        <item>Centi-</item>
+        <item>Mili-</item>
+        <item>Mikro-</item>
+        <item>Nano-</item>
+        <item>Piko-</item>
+        <item>Femto-</item>
+        <item>Ato-</item>
+    </string-array>
+
+    <string-array name="santrumpa2">
+        <item>Santrumpa</item>
+        <item>10\u00B9\u2078</item>
+        <item>10\u00B9\u2075</item>
+        <item>10\u00B9\u00B2</item>
+        <item>10\u2079</item>
+        <item>10\u2076</item>
+        <item>10\u00B3</item>
+        <item>10\u00B2</item>
+        <item>10\u00B9</item>
+        <item>10\u207B\u00B9</item>
+        <item>10\u207B\u00B2</item>
+        <item>10\u207B\u00B3</item>
+        <item>10\u207B\u2076</item>
+        <item>10\u207B\u2079</item>
+        <item>10\u207B\u00B9\u00B2</item>
+        <item>10\u207B\u00B9\u2075</item>
+        <item>10\u207B\u00B9\u2078</item>
+    </string-array>
+
+    <string-array name="Pasirinkite">
+        <item>Matematika</item>
+        <item>Lietuvių kalba</item>
+        <item>Informatika</item>
+        <item>Likę egzaminai</item>
+    </string-array>
+
+
+</resources>

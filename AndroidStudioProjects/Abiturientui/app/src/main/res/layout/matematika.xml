@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/toolbar_size">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.github.chrisbanes.photoview.PhotoView
+                android:id="@+id/formules1"
+                android:layout_width="wrap_content"
+                android:layout_height="500dp"
+                android:src="@drawable/matematikos_formules1" />
+
+            <com.github.chrisbanes.photoview.PhotoView
+                android:id="@+id/formules2"
+                android:layout_width="wrap_content"
+                android:layout_height="500dp"
+                android:layout_below="@id/formules1"
+                android:src="@drawable/matematikos_formules2" />
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_below="@+id/formules2"
+                android:paddingTop="10dp" />
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_below="@+id/image1"
+                android:paddingTop="10dp" />
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_below="@+id/image4"
+                android:paddingTop="10dp" />
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_below="@+id/image2"
+                android:paddingTop="10dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <include layout="@layout/toolbar" />
+
+</RelativeLayout>

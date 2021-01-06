@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Abiturientui</string>
+    <string name="zaidimo_sunkumas_prompt">Sunkumas</string>
+    <string name="Prompt">Sakos</string>
+    <string-array name="zaidimo_sunkumas">
+        <item>Lengvas</item>
+        <item>Vidutinis</item>
+        <item>Sudėtingas</item>
+    </string-array>
+
+    <string name="nustatymai">Nustatymai</string>
+    <string name="lietuviu_kalba">Lietuvių kalba</string>
+    <string name="fizika_saka">Pasirinkite fizikos šaką:</string>
+    <string name="egzai_nuorodos">
+        "Naudingos nuorodos:
+        <a href="https://www.nec.lt/naujienos/">NEC</a>"
+        "<a href="https://scholar.google.com/">Google mokslinčius</a>"
+
+    </string>
+    <string name="apie">Apie</string>
+    <string name="ttt1">1 žaidėjas: 0</string>
+    <string name="ttt2">2 žaidėjas: 0</string>
+    <string name="atmintine_abiturientui">Atmintinė abiturientui</string>
+    <string name="main_text">Pasirinkite mokslo šaką:</string>
+    <string name="paieska">Paieška</string>
+
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.lionroar.mokslobaze.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_egzai"
+        android:name="com.lionroar.mokslobaze.ui.egzai.egzaiFragment"
+        android:label="@string/title_egzai"
+        tools:layout="@layout/fragment_egzai" />
+
+    <fragment
+        android:id="@+id/navigation_kita"
+        android:name="com.lionroar.mokslobaze.ui.kita.kitaFragment"
+        android:label="@string/title_kita"
+        tools:layout="@layout/fragment_kita" />
+</navigation>

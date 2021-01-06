@@ -1,0 +1,41 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="100dp"
+        tools:context=".egzai.egzai">
+
+        <TextView
+            android:id="@+id/egzaminu_datos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nuorodos"
+            android:paddingTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="5dp"
+            android:text="Egzaminų datos"
+            android:textAppearance="@style/TextStyleMedium" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/egzai1"
+            android:layout_width="wrap_content"
+            android:layout_height="600dp"
+            android:layout_below="@id/egzaminu_datos"
+            android:layout_margin="10dp"
+            android:src="@drawable/egz1" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/egzai2"
+            android:layout_width="wrap_content"
+            android:layout_height="450dp"
+            android:layout_below="@id/egzai1"
+            android:layout_margin="10dp"
+            android:src="@drawable/egz2" />
+
+    </RelativeLayout>
+
+</ScrollView>

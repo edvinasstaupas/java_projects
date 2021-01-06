@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/toolbar_size"
+        tools:context=".egzai.egzai">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ExpandableListView
+            android:id="@+id/expandableListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@android:color/darker_gray"
+            android:dividerHeight="0.5dp"
+            android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft" />
+        <TextView
+            android:id="@+id/tekstas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="cia yra expandable view uzkomentuotas"
+            android:textColor="@color/colorText"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/nuoroda1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/egzai_nuorodos"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:layout_below="@id/tekstas"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="atidarytiAtmintine"
+            android:layout_below="@id/nuoroda1"
+            android:text="@string/atmintine_abiturientui"
+            android:id="@+id/atmintine"/>
+
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/egzai1"
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            android:layout_below="@id/atmintine"
+            android:src="@drawable/egzai1" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/egzai2"
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            android:layout_below="@id/egzai1"
+            android:src="@drawable/egzai2" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/egzai3"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_below="@id/egzai2"
+            android:src="@drawable/egzai3" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <include layout="@layout/toolbar"/>
+</RelativeLayout>
