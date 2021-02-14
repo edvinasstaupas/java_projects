@@ -1,3 +1,5 @@
+//program which greets the user and tells which season they are born
+
 import java.util.Scanner;
 
 public class a {
