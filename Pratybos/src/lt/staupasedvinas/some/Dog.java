@@ -1,15 +1,16 @@
 package lt.staupasedvinas.some;
 
-public class Dog {
-    private String name;
+public class Dog extends Pet {
 
-    public Dog (String name) {
-        this.name = name;
+    public Dog(String name) {
+        super(name);
     }
-    public String getName() {
+
+    /*public String getName() {
         return name;
-    }
+    }*/
+    @Override
     public String talk() {
-        return "Au au";
+        return "Au au " + this.getName();
     }
 }

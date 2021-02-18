@@ -1,15 +1,18 @@
 package lt.staupasedvinas.some;
 
-public class Cat {
-    private String name;
+public class Cat extends Pet{
 
     public Cat (String name) {
-        this.name = name;
+        super(name);
     }
-    public String getName() {
-        return name;
-    }
+
+    /*public String getName() {
+
+        return n;
+    }*/
+
+    @Override
     public String talk() {
-        return "Miau";
+        return "Miau " + this.getName();
     }
 }

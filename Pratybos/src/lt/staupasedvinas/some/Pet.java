@@ -10,6 +10,6 @@ public class Pet {
         return this.name;
     }
     public String talk () {
-        return "Miau, aš" + name;
+        return "";
     }
 }

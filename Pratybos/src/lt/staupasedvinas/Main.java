@@ -13,7 +13,7 @@ public class Main {
 	numberBox1.setNumber(8);
 	numberBox2.setNumber(9);
 
-	//numberBox1.number ar kažkaip panašiai negalima, nes private.
+	//numberBox1.number = 8 ar kažkaip panašiai negalima, nes private.
 	System.out.println(numberBox1.getNumber());
 	System.out.println(numberBox2.getNumber());
     }
