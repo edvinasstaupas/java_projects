@@ -11,6 +11,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.FileNotFoundException;
 
+import static javafx.application.Platform.exit;
+
 public class Main extends Application {
 
     @Override
@@ -46,14 +48,15 @@ public class Main extends Application {
         String splitBy = ",";
         try {
             //parsing a CSV file into BufferedReader class constructor
-            BufferedReader br = new BufferedReader(new FileReader("src/sample/data.csv"));
+            BufferedReader br = new BufferedReader(new FileReader("src/sample/data.cs"));
             while ((line = br.readLine()) != null)   //returns a Boolean value
             {
                 String[] account = line.split(splitBy);    // use comma as separator
                 System.out.println(account[0] + " " + account[1]  + " " + account[2]);
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("RIP");
+            exit();
         }
         //launch(args);
     }
