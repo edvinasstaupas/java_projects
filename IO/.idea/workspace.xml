@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eda8716b-8197-483b-9fcb-cf02434c0574" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IO/lt/staupasedvinas/BadInputException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IO/lt/staupasedvinas/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IO/lt/staupasedvinas/IO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IO/lt/staupasedvinas/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/IO/lt/staupasedvinas/binIO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/add.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/binary.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/original.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lt/staupasedvinas/BadInputException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lt/staupasedvinas/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lt/staupasedvinas/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io_martyno.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibrarySystem/out/production/LibrarySystem/binary2.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LibrarySystem/out/production/LibrarySystem/binary2.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibrarySystem/out/production/LibrarySystem/lt/staupasedvinas/binIO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LibrarySystem/out/production/LibrarySystem/lt/staupasedvinas/binIO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibrarySystem/src/lt/staupasedvinas/IO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lt/staupasedvinas/IO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibrarySystem/src/lt/staupasedvinas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibrarySystem/src/lt/staupasedvinas/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibrarySystem/src/lt/staupasedvinas/binIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lt/staupasedvinas/binIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UML/IOUML.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../UML/IOUML.xmi" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1rW0l7Wb6zZKCVICMtojeLpYHVt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CA/CodeAcademy/Uzduotys" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="B:\Studijos\Java\IO\res" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lt.staupasedvinas" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lt.staupasedvinas.Main" />
+      <module name="IO" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eda8716b-8197-483b-9fcb-cf02434c0574" name="Default Changelist" comment="" />
+      <created>1619076688425</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619076688425</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

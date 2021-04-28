@@ -1,14 +1,31 @@
 package lt.staupasedvinas;
 
 import java.io.*;
+import java.util.*;
 
 import static java.lang.System.exit;
+import static java.lang.System.nanoTime;
 
 public class IO {
 
     static String[][][] bookInfo = new String[2][100][];
     static int bookInfoLength = 0;
     static int bookInfoAdditionLength = 0;
+
+    static List<Book> readAndCreateObjects() throws BadInputException {
+        readCSV();
+        List<Book> list = new ArrayList<>();
+        for (int i = 1; i < bookInfoLength; i++) {
+            try {
+                //System.out.println(i);
+                //System.out.println(bookInfo[0][i][0].substring(1) + bookInfo[0][i][1] + bookInfo[0][i][2].substring(1, bookInfo[0][i][2].length()-1));
+                list.add(new Book(bookInfo[0][i][0].substring(1), bookInfo[0][i][1], Integer.parseInt(bookInfo[0][i][2].substring(1, bookInfo[0][i][2].length() - 1))));
+            } catch (NumberFormatException numberFormatException) {
+                throw new BadInputException(numberFormatException);
+            }
+        }
+        return list;
+    }
 
     static void readCSV() {
 
@@ -28,12 +45,11 @@ public class IO {
         String line;
         String splitBy = ",";
         int infoLength = 0;
-        try {
-            BufferedReader bufferedReader = new BufferedReader(new FileReader(fileName));
+        try (BufferedReader bufferedReader = new BufferedReader(new FileReader(fileName))) {
             try {
                 while ((line = bufferedReader.readLine()) != null) {
                     bookInfo[i][infoLength] = line.split(splitBy);
-                    //System.out.println(bookInfo[i][infoLength][0] + " " + bookInfo[i][infoLength][1] + " " + bookInfo[i][infoLength][2]);
+                    //System.out.println(bookInfo[i][infoLength][0].substring(1) + " " + bookInfo[i][infoLength][1] + " " + bookInfo[i][infoLength][2].substring(0, bookInfo[i][infoLength][2].length()-1));
                     infoLength++;
                 }
             } catch (NullPointerException nullPointerException) {
@@ -49,9 +65,7 @@ public class IO {
 
 
     public static void setInfo(String fileName) {
-        BufferedWriter bufferedWriter = null;
-        try {
-            bufferedWriter = new BufferedWriter(new FileWriter(fileName));
+        try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(fileName))) {
             for (int i = 0; i < bookInfoLength; i++) {
                 for (int j = 0; j < 3; j++) {
                     bufferedWriter.write(bookInfo[0][i][j]);
@@ -60,7 +74,6 @@ public class IO {
                 bufferedWriter.write("\n");
             }
             bufferedWriter.flush();
-            bufferedWriter.close();
         } catch (IOException ioException) {
             System.out.println("RIP");
             exit(-2);
@@ -75,16 +88,13 @@ public class IO {
 
 
     public static void deleteAddition(String fileName) {
-        BufferedWriter bufferedWriter = null;
-        try {
-            bufferedWriter = new BufferedWriter(new FileWriter(fileName));
+        try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(fileName))) {
             for (int i = 0; i < bookInfo[0][0].length; i++) {
                 bufferedWriter.write(bookInfo[0][0][i]);
                 bufferedWriter.write(",");
             }
             bufferedWriter.write("\n");
             bufferedWriter.flush();
-            bufferedWriter.close();
         } catch (IOException ioException) {
             System.out.println("RIP");
             exit(-3);
